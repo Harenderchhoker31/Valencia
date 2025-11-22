@@ -1,10 +1,20 @@
+import React from 'react'
+import Hero from '../components/Hero';
+import OurPolicies from '../components/OurPolicy';
+import NewsLetterBox from '../components/NewsLetterBox';
+import LatestCollection from '../components/LatestCollection';
+import Footer from '../components/Footer';
+
 const Home = () => {
   return (
-    <div className="p-8">
-      <h1 className="text-3xl font-bold text-red-500">Welcome to Valencia</h1>
-      <p className="mt-4">This is the home page.</p>
+    <div>
+      <Hero/>
+      <LatestCollection/>
+      <OurPolicies/>
+      <NewsLetterBox/>
+      <Footer/>
     </div>
-  );
-};
+  )
+}
 
-export default Home;
+export default Home

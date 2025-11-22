@@ -1,16 +1,25 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-@import "tailwindcss";
+
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 a.active hr {
     display: block;
-}
+  }
 
-body {
+  body {
     font-family: 'Outfit', sans-serif;
-}
-
-.prata-regular {
+  }
+  
+  .prata-regular {
     font-family: 'Prata', serif;
     font-weight: 400;
     font-style: normal;
-}
+  }
+  
+  
+  
